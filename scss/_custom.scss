@@ -2,6 +2,7 @@
 $purple-dark:  #9926f0;
 $purple-light:  #BB6EF5;
 $pink:    #d122E3;
+$footer: #151414;
 
 // WHITE AND GREY COLOURS
 $white:    #fff;
@@ -21,6 +22,9 @@ $primary: $purple-dark;
 $secondary: $pink;
 
 //ACCORDION OVERRIDES
+
+$accordion-padding-y:                     1.5rem;
+$accordion-padding-x:                     1.5rem;
 
 $accordion-icon-color: $primary;
 $accordion-icon-active-color: $secondary;
