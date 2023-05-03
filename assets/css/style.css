@@ -11797,7 +11797,7 @@ textarea.form-control-lg {
   margin-top: 0;
 }
 .services__content p {
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 @media (min-width: 992px) {
   .services__content p {

@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bootstrap v5 with SASS</title>
+  <title>DigiOcean</title>
   <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="stylesheet" href="/assets/css/fontawesome.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -14,8 +14,8 @@
   <!-- NAVBAR SECTION -->
   <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#">
-        <img src="images/logo.jpeg" alt="logo image">
+      <a class="navbar-brand" href="#home">
+        <span class="fw-bold">DigiOcean</span>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -23,26 +23,26 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
+            <a class="nav-link" href="#services">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Testimonials</a>
+            <a class="nav-link" href="#testimonials">Testimonials</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">faq</a>
+            <a class="nav-link" href="#faq">faq</a>
           </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li> -->
           <li class="nav-item">
-            <a class="nav-link" href="#">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contacts</a>
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
           
         </ul>
-        <button type="button" class="rounded-pill btn-rounded">+10482653
+        <button type="button" class="rounded-pill btn-rounded">+447941648556
           <span><i class="fas fa-phone-alt"></i></span>
         </button>
       </div>
@@ -57,26 +57,26 @@
         <!-- START THE CONTENT FOR THE INTRO -->
         <div class="col-md-6 intros">
           <h1 class="display-2">
-            <span class="display-2--intro">Hey!, I'm Leroy</span>
+            <span class="display-2--intro">Welcome to DigiOcean</span>
             <span class="display-2--description lh-base">
-              This is a multi-purpose layout created with bootstrap v5 (here you can place your description text)
+              DigiOcean is a multi-purpose service ranging from Marketing, Web Development and Cloud Hosting
             </span>
           </h1>
-          <button type="button" class="rounded-pill btn-rounded">Get in Touch
+          <a href="#contact"><button type="button" class="rounded-pill btn-rounded">Get in Touch
             <span><i class="fas fa-arrow-right"></i></span>
-          </button>
+          </button></a>
         </div>
         <!-- START THE CONTENT FOR THE VIDEO -->
         <div class="col-md-6 intros text-end">
           <div class="video-box">
             <img src="images/arts/intro-section-illustration.png" alt="video illustration" class="img-fluid">
-            <a href="" class="glightbox position-absolute top-50 start-50 translate-middle">
+            <!-- <a href="" class="glightbox position-absolute top-50 start-50 translate-middle">
               <span>
                 <i class="fas fa-play-circle"></i>
               </span>
               <span class="border-animation border-animation--border-1"></span>
               <span class="border-animation border-animation--border-2"></span>
-            </a>
+            </a> -->
           </div>
         </div>
       </div>
@@ -123,7 +123,7 @@
   <section id="services" class="services">
     <div class="container">
       <div class="row text-center">
-        <h1 class="display-3 fw-bold">My Services</h1>
+        <h1 class="display-3 fw-bold">Our Services</h1>
         <div class="heading-line mb-1"></div>
       </div>
     
@@ -138,7 +138,13 @@
         </div>
         <div class="col-md-6">
           <div class="bg-white p-4 text-start">
-            <p class="fw-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, repudiandae. Repudiandae voluptatem ipsum sit voluptatum?</p>
+            <p class="fw-bold lh-lg">Welcome to our innovative marketing, web development, and cloud hosting company! We specialize in helping businesses
+            succeed in today's digital landscape by providing comprehensive solutions that cater to all their online needs. Our team
+            of experts is skilled in creating custom marketing strategies that will drive traffic, generate leads, and increase your
+            ROI. We also design and develop visually stunning websites that are optimized for performance and user experience. And
+            with our secure and reliable cloud hosting services, you can rest assured that your online presence will always be
+            available and accessible to your target audience. Let us help you take your business to the next level with our
+            integrated solutions!</p>
           </div>
         </div>
       </div>
@@ -152,12 +158,15 @@
           <div class="services__content">
             <div class="icon fas fa-paper-plane"></div>
             <h3 class="display-3--title mt-1">Marketing</h3>
-            <p class="lh-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis velit porro ad ducimus nostrum sint, sed dolorum autem eaque consequatur repudiandae impedit laborum necessitatibus culpa. Veniam, recusandae quod!
+            <p class="lh-lg fw-bold">
+              We specialize in helping businesses of all sizes achieve their goals through effective and strategic marketing
+              campaigns. Our team of experienced marketers is dedicated to creating customized solutions that are tailored to meet the
+              unique needs and objectives of our clients. From market research and branding to digital advertising and social media
+              management, we offer a wide range of services that are designed to drive results and increase your ROI.
             </p>
-            <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
+            <!-- <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
               <span><i class="fas fa-arrow-right d-block"></i></span>
-            </button>
+            </button> -->
           </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
@@ -177,12 +186,17 @@
           <div class="services__content">
             <div class="icon fas fa-code"></div>
             <h3 class="display-3--title mt-1">Web development</h3>
-            <p class="lh-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis velit porro ad ducimus nostrum sint, sed dolorum autem eaque consequatur repudiandae impedit laborum necessitatibus culpa. Veniam, recusandae quod!
+            <p class="lh-lg fw-bold">
+              We believe that a great website is essential for any business to succeed in today's digital age. We specialize in
+              creating customized, user-friendly, and visually stunning websites that are optimized for performance and user
+              experience. Our team of experienced developers is skilled in the latest web development technologies and frameworks,
+              ensuring that your website is built to the highest standards of quality and functionality. We understand that every
+              business is unique, which is why we take a tailored approach to our web development projects, ensuring that your website
+              is aligned with your brand, goals, and target audience. 
             </p>
-            <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
+            <!-- <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
               <span><i class="fas fa-arrow-right d-block"></i></span>
-            </button>
+            </button> -->
           </div>
         </div>
       </div>
@@ -192,12 +206,15 @@
           <div class="services__content">
             <div class="icon fas fa-cloud-upload-alt"></div>
             <h3 class="display-3--title mt-1">Cloud hosting</h3>
-            <p class="lh-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis velit porro ad ducimus nostrum sint, sed dolorum autem eaque consequatur repudiandae impedit laborum necessitatibus culpa. Veniam, recusandae quod!
+            <p class="lh-lg fw-bold">
+              We understand the importance of reliable and secure hosting solutions for businesses of all sizes. Our cloud hosting
+              services are designed to provide scalable, flexible, and cost-effective hosting solutions that cater to the needs of
+              your business. We leverage the latest cloud hosting technologies and infrastructure to ensure that your website and
+              applications are always available and accessible to your target audience. 
             </p>
-            <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
+            <!-- <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
               <span><i class="fas fa-arrow-right d-block"></i></span>
-            </button>
+            </button> -->
           </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
@@ -217,7 +234,7 @@
       <div class="row text-center text-white">
         <h1 class="display-3 fw-bold">Testimonials</h1>
         <hr style="width: 100px; height: 3px;" class="mx-auto">
-        <p class="lead pt-1">what our clients are saying</p>
+        <p class="lead pt-1">What our clients are saying</p>
       </div>
 
       <!-- START THE CAROUSEL CONTENT -->
@@ -230,7 +247,10 @@
               <div class="testimonials__card">
                 <p class="lh-lg">
                   <i class="fas fa-quote-left"></i>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, eos magnam quisquam, at provident necessitatibus ut, ducimus nisi repellat quaerat placeat.
+                  51,05% more organic website visitors compared to last year.
+                  In the process of optimization, our online presence on Google has improved a lot. Charlie and Arthur offer great
+                  suggestions on how we can continue to improve our website and online findability. I am very pleased with their services,
+                  communication and results.
                   <i class="fas fa-quote-right"></i>
                   <div class="ratings p-1">
                     <i class="fas fa-star"></i>
@@ -248,7 +268,7 @@
               <!-- client name & role -->
               <div class="testimonials__name">
                 <h3>Claire Belle Zawadi</h3>
-                <p class="fw-light">CEO & Founder</p>
+                <p class="fw-light">Broker/ Co-owner @ Century 21 Ballena Properties</p>
               </div>
             </div>
             <!-- CAROUSEL ITEM 2 -->
@@ -257,7 +277,11 @@
               <div class="testimonials__card">
                 <p class="lh-lg">
                   <i class="fas fa-quote-left"></i>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, eos magnam quisquam, at provident necessitatibus ut, ducimus nisi repellat quaerat placeat.
+                  94% more organic traffic compared to last year.
+                  The search for competent honest SEO experts is very harrowing. We were fortunate and had Claire and Arthur recommended
+                  to us. We had them make a presentation, we evaluated it, and went forward as a client. It has now been 6 months and our
+                  Google rankings and website traffic have both improved significantly as a result of their SEO actions. We could not be
+                  more satisfied with their services and results.
                   <i class="fas fa-quote-right"></i>
                   <div class="ratings p-1">
                     <i class="fas fa-star"></i>
@@ -284,7 +308,9 @@
               <div class="testimonials__card">
                 <p class="lh-lg">
                   <i class="fas fa-quote-left"></i>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, eos magnam quisquam, at provident necessitatibus ut, ducimus nisi repellat quaerat placeat.
+                  We are very satisfied with the new website
+                  Because of the pleasant and fast communication, the competitive prices and the thinking of Claire, we have chosen Grid
+                  Marketing to build our new website. We are very satisfied with the collaboration and the new website!
                   <i class="fas fa-quote-right"></i>
                   <div class="ratings p-1">
                     <i class="fas fa-star"></i>
@@ -302,7 +328,7 @@
               <!-- client name & role -->
               <div class="testimonials__name">
                 <h3>Uhuru Kenyatta</h3>
-                <p class="fw-light">C.E.O & Founder</p>
+                <p class="fw-light">Physical Therapist / Owner @ Fysiotherapie Vitaal</p>
               </div>
             </div>
             <!-- CAROUSEL ITEM 4 -->
@@ -311,7 +337,11 @@
               <div class="testimonials__card">
                 <p class="lh-lg">
                   <i class="fas fa-quote-left"></i>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, eos magnam quisquam, at provident necessitatibus ut, ducimus nisi repellat quaerat placeat.
+                  116.14% more social traffic compared to last year
+                  In 2018 I started with Grid Marketing in order to raise brand awareness and increase sales via Social Media Advertising.
+                  Since then I have experienced a noticeable growth within my target audience. The communication is quick and professional
+                  and during the monthly analyses due consideration is always given to my personal wishes and ideas. I would certainly
+                  recommend Grid Marketing to any company that wants to get more out of their Social Media campaigns!
                   <i class="fas fa-quote-right"></i>
                   <div class="ratings p-1">
                     <i class="fas fa-star"></i>
@@ -329,7 +359,7 @@
               <!-- client name & role -->
               <div class="testimonials__name">
                 <h3>Zeeshan Patel</h3>
-                <p class="fw-light">Global Brand Manager</p>
+                <p class="fw-light">Online Health & Lifestyle Coach @ Zeeshan Patel Lifestyle</p>
               </div>
             </div>
           </div>
@@ -352,7 +382,7 @@
       <div class="row text-center">
         <h1 class="display-3 fw-bold text-uppercase">faq</h1>
         <div class="heading-line"></div>
-        <p class="lead">frequently asked questions, get knowledge before hand</p>
+        <p class="lead">Frequently asked questions, get knowledge before hand</p>
       </div>
       <!-- ACCORDION CONTENT -->
       <div class="row mt-5">
@@ -362,12 +392,14 @@
             <div class="accordion-item shadow mb-3">
               <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  What are the main features?
+                  How do you charge for your services?
                 </button>
               </h2>
               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  <strong>At our company, we offer transparent pricing for our services based on the scope of your project and your unique
+                  business needs. We provide detailed proposals and quotes that outline the cost breakdown and ensure that there are no
+                  hidden fees or surprises.</strong>
                 </div>
               </div>
             </div>
@@ -375,12 +407,14 @@
             <div class="accordion-item shadow mb-3">
               <h2 class="accordion-header" id="headingTwo">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Do i have to pay again after the trial?
+                  How much is your web hosting fees? 
                 </button>
               </h2>
               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  <strong>Our web hosting fees vary depending on the type and level of hosting you require. We offer a range of options, from
+                  basic shared hosting to fully managed cloud hosting, and our pricing is competitive and transparent. Contact us to learn
+                  more about our hosting plans and get a customized quote for your business.</strong>
                 </div>
               </div>
             </div>
@@ -388,12 +422,14 @@
             <div class="accordion-item shadow mb-3">
               <h2 class="accordion-header" id="headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  How can i get started after the trial?
+                  What strategies do you use to market your website?
                 </button>
               </h2>
               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  <strong>At our company, we use a variety of strategies to market your website, including search engine optimization (SEO), amazon web services (AWS), 
+                  social media marketing, pay-per-click (PPC) advertising, content marketing, and email marketing. Our team will work with
+                  you to develop a comprehensive marketing plan that fits your unique business goals and budget.</strong>
                 </div>
               </div>
             </div>
@@ -401,12 +437,14 @@
             <div class="accordion-item shadow mb-3">
               <h2 class="accordion-header" id="headingFour">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                  Can i be refunded if i am not satisfied?
+                  How much will hosting my website cost me?
                 </button>
               </h2>
               <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  <strong>The cost of hosting your website will depend on a number of factors, including the type of hosting you choose, the size
+                  and complexity of your website, and any additional features or services you require. Our team can provide you with a
+                  personalized quote and help you find the hosting solution that best fits your needs and budget.</strong>
                 </div>
               </div>
             </div>
@@ -418,7 +456,7 @@
 
   <!-- START SECTION 7 - THE PORTFOLIO -->
 
-  <section id="portfolio" class="portfolio">
+  <!-- <section id="portfolio" class="portfolio">
     <div class="container">
       <div class="row text-center mt-5">
         <h1 class="display-3 fw-bold text-capitalize">Latest Work</h1>
@@ -427,7 +465,7 @@
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab nihil beatae delectus?
         </p>
       </div>
-      <!-- FILTER BUTTONS -->
+      FILTER BUTTONS
       <div class="row mt-5 mb-4 g-3 text-center">
         <div class="col-md-12">
           <button class="btn btn-outline-primary" type="button">All</button>
@@ -436,7 +474,7 @@
           <button class="btn btn-outline-primary" type="button">Mockup</button>
         </div>
       </div>
-      <!-- START THE PORTFOLIO ITEMS -->
+      START THE PORTFOLIO ITEMS
       <div class="row">
         <col>
         <div class="col-lg-4 col-md-6">
@@ -540,26 +578,27 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- START SECTION 8 - GET STARTED -->
 
   <section id="contact" class="get-started">
     <div class="container">
       <div class="row text-center">
-        <h1 class="display-3 fw-bold text-capitalize">Get started</h1>
+        <h1 class="display-3 fw-bold text-capitalize">Contact Us</h1>
         <div class="heading-line"></div>
         <p class="lh-lg">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nam perspiciatis ad?
+          Fill out the form, leave a message and we will be right back in touch!
         </p>
       </div>
       <!-- START THE CTA CONTENT -->
       <div class="row text-white">
         <div class="col-12 col-lg-6 gradient shadow p-3">
           <div class="cta-info w-100">
-            <h4 class="display-4 fw-bold">100% Satisfaction Guaranteed</h4>
+            <h4 class="display-4 fw-bold">We Strive To Satisfy You</h4>
             <p class="lh-lg">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae nobis ullam alias minima, culpa perspiciatis inventore nesciunt distinctio pariatur sapiente hic!
+              If you want to take your digital presence to the next level, don't hesitate to get in touch with us! Our team of experts
+              in Marketing, Web Development, and Cloud Hosting is ready to provide you with the solutions you need to succeed online.
             </p>
             <h3 class="display-3--brief">What will be the next step?</h3>
             <ul class="cta-info__list">
@@ -571,25 +610,28 @@
         </div>
         <div class="col-12 col-lg-6 bg-white shadow p-3">
           <div class="form w-100 pb-2">
-            <h4 class="display-3--title mb-5">start your project</h4>
-            <form action="#" class="row">
+            <h4 class="display-3--title mb-5">Contact Us</h4>
+            <form id="form" action="javascript:void(0);" class="row">
               <div class="col-lg-6 col-md-6 mb-3">
-                <input type="text" placeholder="First Name" id="inputFirstName" class="shadow form-control form-control-lg">
+                <input type="text" placeholder="First Name" id="inputFirstName" class="shadow form-control form-control-lg" required>
               </div>
               <div class="col-lg-6 col-md-6 mb-3">
-                <input type="text" placeholder="Last Name" id="inputLastName" class="shadow form-control form-control-lg">
+                <input type="text" placeholder="Last Name" id="inputLastName" class="shadow form-control form-control-lg" required>
               </div>
               <div class="col-lg-12 mb-3">
-                <input type="email" placeholder="email address" id="inputEmail" class="shadow form-control form-control-lg">
+                <input type="email" placeholder="E-mail Address" id="inputEmail" class="shadow form-control form-control-lg" required>
               </div>
               <div class="col-lg-12 mb-3">
-                <textarea name="message" placeholder="message" id="message" rows="8" class="shadow form-control form-control-lg"></textarea>
+                <textarea name="message" placeholder="Message" id="message" rows="8" class="shadow form-control form-control-lg" required></textarea>
               </div>
               <div class="text-center d-grid mt-1">
-                <button type="button" class="btn btn-primary rounded-pill pt-3 pb-3">
+                <button onclick="submitMessage()" id="submit" type="submit" class="btn btn-primary rounded-pill pt-3 pb-3">
                   submit
                   <i class="fas fa-paper-plane"></i>
                 </button>
+              </div>
+              <div class="success" id="success">
+                <p>Your message has been sent!</p>
               </div>
             </form>
           </div>
@@ -604,7 +646,7 @@
     <div class="container">
       <div class="row">
         <!-- CONTENT FOR THE MOBILE NUMBER -->
-        <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+        <!-- <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
           <div class="contact-box__icon">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone-call" viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
               <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -617,9 +659,9 @@
             <a href="" class="contact-box__info--title">+1728365413</a>
             <p class="contact-box__info--subtitle">Mon-Fri 9am-6pm</p>
           </div>
-        </div>
+        </div> -->
         <!-- CONTENT FOR EMAIL -->
-        <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+        <!-- <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
           <div class="contact-box__icon">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail-opened" viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
               <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -633,9 +675,9 @@
             <a href="" class="contact-box__info--title">info@company.com</a>
             <p class="contact-box__info--subtitle">Online Support</p>
           </div>
-        </div>
+        </div> -->
         <!-- CONTENT FOR LOCATION -->
-        <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+        <!-- <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
           <div class="contact-box__icon">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
               <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -650,12 +692,12 @@
             <a href="" class="contact-box__info--title">New York, USA</a>
             <p class="contact-box__info--subtitle">NY 10012, US</p>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
 
     <!-- START THE SOCIAL MEDIA CONTENT -->
-    <div class="footer-sm" style="background-color: #212121;">
+    <!-- <div class="footer-sm" style="background-color: #212121;">
       <div class="container">
         <div class="row py-4 text-center text-white">
           <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
@@ -670,19 +712,19 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- START THE CONTENT FOR COMPANY INFO -->
-    <div class="container mt-5">
+    <div id="footer" class="container mt-5">
       <div class="row text-white justify-content-center mt-3 pb-3">
         <div class="col-12 col-sm-6 col-lg-6 mx-auto">
-          <h4 class="text-capitalize fw-bold">Company name</h4>
+          <h4 class="text-capitalize fw-bold">DigiOcean</h4>
           <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
           <p class="lh-lg">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error voluptatum dignissimos voluptate exercitationem quo dicta laboriosam aperiam.
+            Navigate the digital world with DigiOcean.
           </p>
         </div>
-        <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
+        <!-- <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
           <h4 class="text-capitalize fw-bold">Products</h4>
           <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
           <ul class="list-inline company-list">
@@ -701,15 +743,16 @@
             <li><a href="#">Create an Account</a></li>
             <li><a href="#">Help</a></li>
           </ul>
-        </div>
+        </div> -->
         <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
           <h4 class="text-capitalize fw-bold">Contact</h4>
           <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
           <ul class="list-inline company-list">
+            <li><a href="#footer">+447941648556</a></li>
+            <li><a href="#footer">support@digiocean.co.uk</a></li>
+            <!-- <li><a href="#">lorem ipsum</a></li>
             <li><a href="#">lorem ipsum</a></li>
-            <li><a href="#">lorem ipsum</a></li>
-            <li><a href="#">lorem ipsum</a></li>
-            <li><a href="#">lorem ipsum</a></li>
+            <li><a href="#">lorem ipsum</a></li> -->
           </ul>
         </div>
       </div>
@@ -721,7 +764,7 @@
         <div class="row text-center text-white">
           <div class="col-12">
             <div class="footer-bottom__copyright">
-              &COPY; Copyright 2023 <a href="#">Multi-purpose Company</a> | Created by <a href="#">Leroy</a>
+              &COPY; Copyright 2023 Multi-purpose Company | Created by DigiOcean
             </div>
           </div>
         </div>
@@ -747,5 +790,6 @@
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+<script src="submitMessage.js"></script>
 </body>
 </html>
