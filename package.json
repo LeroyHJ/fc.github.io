@@ -24,5 +24,8 @@
     "dart-sass": "^1.25.0",
     "postcss-cli": "^9.1.0",
     "sass": "^1.57.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
